@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sharesumer
+    
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: git@bitbucket.org:wisepal/config-repo
